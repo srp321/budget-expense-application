@@ -32,9 +32,14 @@ Spring boot is used as the framework for development of application because of t
         java -jar target/budget-assignment-1.0.0.jar
    ```
 
+### API Security
+- Basic authentication has been used to secure all the APIs
+- Username/password: admin/password
+
 ### Sources for API Documentation
 - The documentation for the APIs as a swagger-ui html page APIs available at
   http://localhost:8080/swagger-ui.html
+- Basic authentication details is needed for accessing the API documentation
 - The documentation for the APIs in OpenAPI json format APIs available at
   http://localhost:8080/v3/api-docs
 
